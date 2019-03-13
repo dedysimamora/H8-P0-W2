@@ -7,6 +7,7 @@ function dataHandling2(input){
     input.splice(4, 1, "Pria", "SMA Internasional Metro");
     console.log(input);
     var pecah = input[3].split("/");
+    
     var joinan = pecah.join("-");
     var konversi = input[1].toString();
     switch(pecah[1]){

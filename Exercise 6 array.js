@@ -13,7 +13,6 @@ function angkaPalindrome(num) {
             a++;
         }
     }
-
   }
   
   // TEST CASES
@@ -21,4 +20,4 @@ function angkaPalindrome(num) {
   console.log(angkaPalindrome(10)); // 11
   console.log(angkaPalindrome(117)); // 121
   console.log(angkaPalindrome(175)); // 181
-  console.log(angkaPalindrome(1000)); // 1001
+  console.log(angkaPalindrome(5000)); // 1001
