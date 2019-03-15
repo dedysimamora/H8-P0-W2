@@ -1,19 +1,26 @@
 function angkaPalindrome(num) {
-    
-    var a = num + 1;
-    var balik = "";
-    while(true){
-        var c = String(a);
-        balik = c.split("").reverse().join("");
-        if (a === Number(balik)){
-            return a;
-        }
-        else {
+ 
+var angka = num + 1;
+var balikan = "";
+ 
+var kondisi = false;
 
-            a++;
-        }
+ while (!kondisi){
+    
+    balikan = String(angka).split('').reverse().join('');
+    if(angka === Number(balikan)){
+
+        kondisi = true;
     }
-  }
+    else {
+        angka++;
+    }
+
+}
+
+return angka;
+
+}
   
   // TEST CASES
   console.log(angkaPalindrome(8)); // 9

@@ -18,6 +18,22 @@ function palindrome(kata) {
 
   }
   
+
+
+//return kata===kata.split('').reverse().join('');
+
+    // var blk = "";
+
+    // for(i=kata.length-1;i>=0;i--){
+
+    //     blk += kata[i];
+
+    // }
+
+    // return kata===blk;
+
+
+
   // TEST CASES
   console.log(palindrome('katak')); // true
   console.log(palindrome('blanket')); // false
